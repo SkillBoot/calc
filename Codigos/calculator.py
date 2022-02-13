@@ -1,21 +1,21 @@
 # Max Base
 # https://github.com/BaseMax/MiniCalculatorInterpreter
-import math
+import matha
 import ply.lex as lex
 import ply.yacc as yacc
-
-tokens = (
+aaaa
+tokens = (a
     'NAME',
     'NUMBER_INT', 'NUMBER_DOUBLE',
-    'PLUS','MINUS','TIMES','DIVIDE',
+    'PLUS','MINUS','TIMES','DIVIDE',a
     'EQUALS','COLON',
-    'LPAREN','RPAREN',
+    'LPAREN','RPAREN',aaa
 )
 t_NAME    = r'[a-zA-Z_][a-zA-Z0-9_]*'
 t_LPAREN  = r'\('
 t_RPAREN  = r'\)'
 t_COLON   = r','
-t_EQUALS  = r'='
+t_EQUALS  = r'='6
 t_PLUS    = r'\+'
 t_MINUS   = r'-'
 t_TIMES   = r'\*'
